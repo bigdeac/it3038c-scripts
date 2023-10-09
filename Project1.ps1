@@ -1,4 +1,4 @@
-﻿# Get all drives
+﻿# Powershell Get all drives
 $drives = Get-WmiObject Win32_LogicalDisk
 
 # Initialize counters
