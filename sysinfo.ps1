@@ -13,4 +13,6 @@ $Date = Get-Date -Format "dddd, MMMM dd, yyyy"
 $BODY = "This machine's IP is $IP. User is $User. Hostname is $HostName. PowerShell $Ver. Today's Date is $Date."
 
 # Output $BODY to a file
-$BODY | Out-File -FilePath "C:\Scripts\output.txt"
+$BODY | Out-File -FilePath "C:\it3038c-scripts\output.txt"
+
+Write-Host $BODY
