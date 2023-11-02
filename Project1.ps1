@@ -1,4 +1,4 @@
-﻿#Powershell Get all drives
+﻿#Project 1 Powershell Get all drives
 $drives = Get-WmiObject Win32_LogicalDisk
 
 #Initialize counters
@@ -18,7 +18,7 @@ foreach ($drive in $drives) {
 Write-Host "Number of drives: $driveCount"
 Write-Host "Total free space across all drives: $($totalFreeSpace / 1GB) GB"
 
-#Project 2 
+#Project 2 Powershell Find Largest Directories
 # Loop through each drive again
 foreach ($drive in $drives) {
     # Check if drive is ready and not a CD-ROM
